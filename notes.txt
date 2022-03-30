@@ -1,0 +1,11 @@
+- Data version control is a set of tools and processes that tries to adapt the version control process to the data world.
+- DVC is a command-line tool written in Python.
+- DVC is meant to be run alongside Git. In fact, the git and dvc commands will often be used in tandem, one after the other. 
+- While Git is used to store and version code, DVC does the same for data and model files.
+- Git can store code locally and also on a hosting service like GitHub, Bitbucket, or GitLab. Likewise, DVC uses a remote repository to store all your data and models.
+- When you store your data and models in the remote repository, a .dvc file is created. 
+- A .dvc file is a small text file that points to your actual data files in remote storage.
+- The .dvc file is lightweight and meant to be stored with your code in GitHub.
+- When you download a Git repository, you also get the .dvc files. You can then use those files to get the data associated with that repository. 
+- Large data and model files go in your DVC remote storage, and small .dvc files that point to your data go in GitHub.
+

@@ -2,3 +2,4 @@
 /data/raw/test/*
 /data/raw/train.csv
 /data/raw/test.csv
+/data/prepared
